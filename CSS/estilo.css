@@ -12,6 +12,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-padding-top: 80px;
 }
 
 body {
@@ -186,7 +187,7 @@ span {
             content: "Fera";
         }
         81%, 100%{
-            content: "PAI DO ENZO";
+            content: "Palmeirense";
         }
     }
     @media(max-width: 995px){
@@ -263,4 +264,15 @@ span {
             display: block;
         }
     }
-    
+    .blocos h3{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        border-left: 5px solid navy;
+        padding-left: 1.5rem;
+        color: navy;
+    }
+    .blocos p{
+        font-size: 1.8rem;
+        line-height: 1.7;
+        color: white;
+    }
